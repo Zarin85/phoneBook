@@ -1,0 +1,30 @@
+I have implemented a simple phonebook REST api using node.js. Where name and phone number can't be empty and take input only Bangladeshi phone number.
+
+Framework: Express.js
+Database: MongoDB
+Server: Mongo Atlas
+
+To run this project:
+1. First to install all the package run 'npm install' in the terminal (in the project location)
+2. To run the application run 'npm start' in the terminal
+
+To create a new contact (http POST method):
+http://127.0.0.1:3000/api/contacts/
+
+To get all the contacts (http GET method):
+http://127.0.0.1:3000/api/contacts/
+
+To get a contact (http GET method):
+http://127.0.0.1:3000/api/contacts/phoneNo
+// replace the phoneNo with the phone you want to update
+
+To Update a contact (http PATCH method):
+http://127.0.0.1:3000/api/contacts/id
+// replace the id with the _id you want to update
+
+To delete a contact (http DELETE method):
+http://127.0.0.1:3000/api/contacts/id
+// replace the id with the _id you want to delete
+
+
+
